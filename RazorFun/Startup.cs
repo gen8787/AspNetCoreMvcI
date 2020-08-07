@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ProjectI
+namespace RazorFun
 {
     public class Startup
     {
@@ -16,7 +16,7 @@ namespace ProjectI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            //~~ A D D   L I N E   B E L O W ~~ //
+            //add this line
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
@@ -28,7 +28,7 @@ namespace ProjectI
                 app.UseDeveloperExceptionPage();
             }
 
-            //~~ A D D   L I N E   B E L O W ~~ //
+            //add this line, replacing the app.run lines of code
             app.UseMvc();
         }
     }

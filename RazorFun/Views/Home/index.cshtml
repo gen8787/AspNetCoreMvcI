@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor Fun</title>
+</head>
+<body>
+    <h3 class="red">Welcome.</h3>
+
+    @{
+        string[] climbTypes = new string[]
+        {
+            "Mountain", "Sport", "Trad", "Alpine","Mixed", "Ice"
+        };
+    }
+        <ul>
+        @foreach (var item in climbTypes)
+        {
+            if(item.StartsWith("M"))
+            {
+                <li style="color: red">@item</li>
+            }
+            else
+            {
+                <li>@item</li>
+            }
+        }
+        </ul>
+</body>
+</html>

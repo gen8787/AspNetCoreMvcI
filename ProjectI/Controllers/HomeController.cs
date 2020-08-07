@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ProjectI.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller //<-- add Controller
     {
         //Requests
         //localhoset:5000/
@@ -31,5 +31,6 @@ namespace ProjectI.Controllers
         {
             return $"Hello, {username}";
         }
+    //<~~ E N D   O F   C O N T R O L L E R ~~> //
     }
 }
