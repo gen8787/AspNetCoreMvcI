@@ -1,9 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 
-using System.Globalization;
-using System.Runtime.Serialization;
-
 namespace TimeDisplay.Controllers
 {
     public class HomeController : Controller //<-- add Controller
@@ -16,7 +13,7 @@ namespace TimeDisplay.Controllers
             string NewTime = GetCurrentDateTime.ToString("hh:mm tt");
             ViewBag.NewDate = NewDate;
             ViewBag.NewTime = NewTime;
-            
+
             return View("Index");
         }
     }
