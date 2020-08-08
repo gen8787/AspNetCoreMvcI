@@ -28,7 +28,8 @@ namespace ProjectI
                 app.UseDeveloperExceptionPage();
             }
 
-            //~~ A D D   L I N E   B E L O W ~~ //
+            //~~ A D D   L I N E S   B E L O W ~~ //
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }

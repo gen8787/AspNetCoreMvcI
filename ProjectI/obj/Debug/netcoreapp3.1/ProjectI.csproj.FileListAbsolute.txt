@@ -28,3 +28,5 @@
 /Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/obj/Debug/netcoreapp3.1/ProjectI.RazorTargetAssemblyInfo.cs
 /Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/obj/Debug/netcoreapp3.1/ProjectI.Views.pdb
 /Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/obj/Debug/netcoreapp3.1/ProjectI.csproj.CopyComplete
+/Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contact.cshtml.g.cs
+/Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/obj/Debug/netcoreapp3.1/Razor/Views/Home/Projects.cshtml.g.cs

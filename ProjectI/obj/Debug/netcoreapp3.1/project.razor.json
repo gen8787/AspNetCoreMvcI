@@ -20521,8 +20521,18 @@
   "RootNamespace": "ProjectI",
   "Documents": [
     {
+      "FilePath": "/Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/Views/Home/Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/garynewmeyer/Desktop/CodingDojo/c_sharp/AspNetCoreMvcI/ProjectI/Views/Home/Projects.cshtml",
+      "TargetPath": "Views\\Home\\Projects.cshtml",
       "FileKind": "mvc"
     }
   ],
